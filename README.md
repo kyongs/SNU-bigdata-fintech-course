@@ -8,9 +8,9 @@
 |Lecture # | Contents |
 | ---  | --- |
 | 1 | [Oracle Installation ](./oracle_installation/README.md) |
-| 2 | - | 
-| 3 | - |
-| 4 | - |
+| 2 | TBA | 
+| 3 | TBA |
+| 4 | TBA |
 
 ## Contact
 If you have a question regarding to the course, please contact the teaching assistant: Kyong-Shik Lee (kyongshikl@gmail.com)
