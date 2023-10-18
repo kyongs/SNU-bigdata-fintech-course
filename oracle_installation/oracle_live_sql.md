@@ -27,10 +27,9 @@
 
 
 ## Oracle 기본 제공 스키마 사용법 2 (For Manipulating)
-- 위 방법은 READ-ONLY 이므로, 테이블 데이터를 수정할 수 없다.
+- 위 방법은 READ-ONLY 접근을 가지기 때문에 테이블 데이터를 수정할 수 없다.
 - 따라서, 실습을 위해 데이터를 수정할때는 worksheet에서 직접 원하는 스키마의 테이블 생성 및 데이터 삽입을 해야한다.
-
-
-| schema | link |
-| --- | --- |
-| Scott | [link](./scott.sql) |
+- schema list
+    | schema | link |
+    | --- | --- |
+    | Scott | [scott.sql](./scott.sql) |
