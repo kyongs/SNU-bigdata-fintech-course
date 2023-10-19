@@ -33,3 +33,31 @@
     | schema | link |
     | --- | --- |
     | Scott | [scott.sql](./scott.sql) |
+
+
+<br/><br/>
+
+**Scott Schema 사용 방법 예시**
+1. Worksheet에 접속한다.<br/>
+   <img src="../img/oracle_live_sql_3.png" width="80%"></img>
+
+2. 위 schema list의 테이블에서 scott.sql를 복사해 붙여넣은후, "Run" 버튼을 눌러 실행한다. <br/>
+   <img src="../img/oracle_live_sql_5.png" width="80%"></img>
+
+   ```
+   *** sql문 설명 ***
+   1. DROP TABLE [테이블명]
+        - 데이터베이스 내에서 [테이블명]에 해당하는 테이블을 삭제한다.
+        - 스크립트에서 DROP TABLE 명령어를 먼저 실행하는 이유는 혹시라도 이미 있을 테이블에 데이터가 쌓여 꼬이는 것을 미연에 방지하기 위해서이다.
+        - 실제 환경에서 DROP TABLE은 당연히 함부로 쓰면 안되는 명령어이다. (관련 데이터가 다 날라가기 때문)
+
+    2. CREATE TABLE [테이블명] ([컬럼명] [데이터 타입], ...)
+        - 테이블을 생성한다. 
+        - 테이블 안에 컬렴명과 상응하는 데이터 타입을 지정한다.
+
+    3. INSERT INTO [테이블명] VALUES ([컬럼1 데이터], [컬럼2 데이터], ...)
+        - 테이블 안에 튜플(= 데이터, 한 행)을 삽입한다.
+   ```
+
+3. 쿼리가 제대로 반영되었는지 확인하기 위해 `SELECT`문을 실행해본다. <br/>
+    <img src="../img/oracle_live_sql_6.png" width="80%"></img>
