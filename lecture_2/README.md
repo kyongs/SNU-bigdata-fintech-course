@@ -76,7 +76,7 @@
     ```SQL
     INSERT INTO DEPT VALUES (50, 'VLDB', 'SUWON');
     ```
-    위와 같은 SQL문이 실행되었다가 commit 없이 rollback된 sql script가 있다면, LiveSQL에서는 직접 추가된 데이터를 DELETE해주어야 한다.
+    위와 같은 SQL문이 실행되었다가 rollback된 sql query가 있다면, LiveSQL에서는 직접 추가된 데이터를 DELETE해주어야 한다.
     ```SQL
     DELETE FROM DEPT WHERE deptno=50;
     ```
